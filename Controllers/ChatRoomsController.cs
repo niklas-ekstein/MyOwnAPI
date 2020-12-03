@@ -167,7 +167,7 @@ namespace A5WebAPI.Controllers
 
         }
 
-        //Delete a chat room
+        //Delete a chat room.
         // DELETE: api/ChatRooms/5
         [HttpDelete("{id}")]
         public async Task<ActionResult<ChatRoom>> DeleteChatRoom(int id)

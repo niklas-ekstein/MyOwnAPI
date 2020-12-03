@@ -25,9 +25,9 @@ namespace A5WebAPI.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<ChatUser>().HasData(
-                new ChatUser { chatUserID = 1, password = "assignment5", username = "assignment5" },
-                new ChatUser { chatUserID = 2, password = "assignment52", username = "assignment52" },
-                new ChatUser { chatUserID = 3, password = "assignment53", username = "assignment53" }
+                new ChatUser { chatUserID = 1, password = "test1", username = "test1" },
+                new ChatUser { chatUserID = 2, password = "test2", username = "test2" },
+                new ChatUser { chatUserID = 3, password = "test3", username = "test3" }
                 );
         }
 
